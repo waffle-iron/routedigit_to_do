@@ -24,6 +24,11 @@ app.engine('html', cons.swig)
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'html');
 
+// Import necessary modules and move them into script folder
+app.use('/scripts', express.static(__dirname + '/node_modules/bootstrap/dist/js/'));
+app.use('/scripts', express.static(__dirname + '/node_modules/jquery/dist/'));
+app.use('/scripts', express.static(__dirname + '/node_modules/angular/')); 
+
 app.use('/', index);
 app.use('/users', users);
 
