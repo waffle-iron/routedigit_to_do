@@ -1,4 +1,4 @@
-#Project Name : Photo Thumbnail
+#Project Name : To Do App
 
 Technologies Used:
 
