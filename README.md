@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/rootgateway/routedigit_to_do.png?label=ready&title=Ready)](https://waffle.io/rootgateway/routedigit_to_do)
 #Project Name : To Do App
 
 Technologies Used:
